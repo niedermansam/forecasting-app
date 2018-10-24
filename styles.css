@@ -1,0 +1,21 @@
+td {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: .75em;
+}
+
+tbody::before {
+  content: 'Summary Statistics'
+}
+.load-container {
+  z-index: -1;
+}
+
+p {
+  margin-left: 5px;
+  text-align: justify;
+}
